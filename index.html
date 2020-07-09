@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="./style.css">
+	<title>Document</title>
+</head>
+
+<body>
+    
+    <div class="container">
+            <a href="./index.html" class="sitelogo"></a>
+    </div>
+    
+	<div class="title"><img src="./photo/title.png"></div>
+    
+	<div class="" style="position: absolute;top: 40%;left: 40%;">
+        
+		<form id="myform" action="#">
+            <input class="signName" type="text" name="yname" placeholder="輸入您的名字">
+            <br>
+            <input class="signBtn" type="button" onclick="location.href='main.html'" value="確認"> 
+		</form>
+        
+        <p id="show"></p>
+        
+        </div>
+        
+        <script>
+            
+            function myfuction(){
+                var yout = document.getElementById('myform').yname.value;
+                document.getElementById("show").innerHTML = yout ;
+            }
+            
+            
+        </script>
+        
+    
+</body>
+</html>

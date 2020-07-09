@@ -1,0 +1,96 @@
+body {
+    width: 100%;
+    background-color: #FFF7F7;
+}
+
+.sitelogo {
+    text-decoration: none;
+    height: 90px;
+    width: 300px;
+    display: flex;
+    background-image: url('/photo/logo.png');
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center;
+}
+
+.title{
+    margin-top: 80px;
+    text-align: center;
+}
+
+img {
+    margin-top: 10px;
+    width: 20%;
+}
+
+.signName{
+    width: 380px;
+    margin-top: 60px;
+    padding:7px 40px;
+    border:0 none;
+    border-radius: 36px;
+    text-align: center;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+.signBtn{
+    width: 460px;
+    margin-top: 20px;
+    padding:6px 30px; 
+    background:#FFA9A9; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 36px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.jsimage{
+    margin: auto;
+    margin-top: 10px;
+    padding:  0 0 0 0;
+    width: 300px;
+    height: 300px;
+}
+
+.jsimage img{
+    width: 250px;
+}
+
+.btnlist{
+    margin: 10 auto 10 auto;
+    padding:  0 0 0 0;
+    margin-top: 10px;
+    width: 911px;
+    height: 35px;
+}
+
+.fortune, .sound, .explain {
+    width: 300px;
+    height: 35px;
+    border:0 none;
+    border-radius: 36px;
+    background:#FFA9A9;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;   
+}
+
+.signBtn:hover{
+    background:#FC8C8C;
+}
+
+.fortune:hover{
+    background:#FC8C8C;
+}
+
+.sound:hover{
+    background:#FC8C8C;
+}
+
+.explain:hover{
+    background:#FC8C8C;
+}

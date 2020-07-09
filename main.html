@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="./style.css">
+	<title>Document</title>
+</head>
+    
+    <body>
+         <div class="container">
+            <a href="./index.html" class="sitelogo"></a>
+    </div>
+        
+        <div class="jsimage">
+             <script type="text/javascript" >
+                ImageCount = 6;
+                img = Math.floor(Math.random() * ImageCount);
+                document.write("<img src='photo/"+img+".png'>");         
+              </script>
+        </div>
+                
+        <div>
+        <p id="show"></p>
+        </div>  
+        <script>
+            
+            function myfuction(){
+                var yout = document.getElementById('myform').yname.value;
+                document.getElementById("show").innerHTML = yout; 
+            }
+            
+            
+        </script>     
+        
+    <div class="btnlist">
+        <p></p>
+        <button class="fortune">今日運勢</button>
+        <button class="sound">塔羅占卜</button>
+        <button class="explain">使用說明</button>
+        </div>
+        
+    </body>
+
+    
+</html>
